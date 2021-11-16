@@ -1,0 +1,551 @@
+ul{
+    list-style: none;
+}
+.page-header a{
+    
+    color: white;
+    font-size: 20px;
+}
+
+body{
+    font-family:'Rubic Mono One', sans-serif;
+    margin: 0;
+}
+
+p:not(.page-header p){
+    color: grey;
+    font-size: 15px;
+    line-height: 170%;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited{
+color: white;
+
+}
+.page-header{
+    
+    background: url("img/landshaft.jpg") no-repeat 50% 90% ;
+
+}
+
+.logo img{
+    height: 66px;
+    width: 130px;   
+}
+
+.page-header .header-top{
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+padding-top: 70px;
+padding-bottom: 20px;
+
+}
+
+
+.page-header p{
+    display:flex;
+    height: 100%;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 80px;
+    
+    
+    
+    color: white;
+}
+
+
+.page-header .header-menu ul{
+display: flex;
+border-top: 1px solid rgba(255, 255, 255, 0.3);
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+padding: 0;
+}
+
+.page-header .header-menu ul li{
+    display: block;
+    margin: 0 20px;
+    padding: 25px;
+}
+
+h2{
+    font-size: 40px;
+    width:900px;
+   
+    margin: 80px auto;  
+    text-transform: uppercase;
+}
+
+
+
+.products-list{
+    
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    
+
+}
+.product{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    align-items: center;
+    position: relative;
+}
+
+.no_border{
+    border-right: none;
+}
+.product h3{
+
+    font-size: 40px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 30px;
+    text-transform: uppercase;
+    
+}
+
+.product p{
+    display: block;
+    margin: 15px 30px;
+    
+}
+table{
+    width: 150px;
+    border-collapse: collapse;
+}
+.tabled_inf p{
+    margin: 0;  
+    margin-top: 10px;
+
+}
+td{
+    border: 1px solid grey;
+    padding: 10px;
+   
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.tabled_inf{
+
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    position:absolute;
+    top: 80px;
+    right: 40px;
+    
+}
+
+.buttons{
+display: grid;
+grid-template-columns: 150px ;
+grid-auto-flow: column;
+gap: 20px;  
+margin-top: 80px;
+align-items:center;
+}
+
+.btn span{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #834700;
+}
+.btn{
+    display: block;
+    padding: 20px;
+    border: 2px solid #834700;
+    text-align: center;
+}
+.btn:nth-child(2n)
+{
+
+    background-color: #834700;
+}
+.btn_buy span{
+    color: white;
+}
+
+
+
+.prons{
+background-color: #FFCB78;
+width: 100%;
+margin: 100px 0 auto;
+}
+
+.prons ul{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.arguments{
+    display: block;
+    width: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-right:1px rgba(131, 71,0, 0.3) solid ;
+}
+
+.arguments h2{
+    margin: 0;
+    display: inline-block;
+    width: inherit;
+    font-size: 20px;
+}
+
+li .arguments p{
+    color: black;
+}
+
+.arguments img{
+    width: 50px;
+    height: 68px;
+    margin-bottom: 30px;
+}
+
+.wide{
+    padding-right: 0;
+    border: none;
+}
+
+
+.wide img{
+    width: 70px;
+    height: 68px;
+}
+
+.history{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+
+dt h3{
+    display: inline-block;
+    margin: 0;
+}
+dt i{
+    float: right;
+}
+
+.reviw-item dt{
+    margin-bottom: 30px;
+
+}
+.reviw-item dd img{
+    float: right;
+    width: 250px;
+
+}
+
+.reviw-item:first-child{
+    margin-bottom: 100px;
+}
+
+.history dd{
+margin: 0;
+
+}
+.history dd p{
+    font-size: 17px;
+    width: 500px;
+}
+
+.about{
+    width: 100%;
+    background: #EDE5D8 ;
+    
+    margin-top: 100px;
+    
+}
+.comment{
+    margin: 0 auto;
+    width: 900px;
+    
+}
+
+.about h2{
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.pressComent{
+    margin: 0;
+
+}
+
+.comment .pressComent p{
+    color: black;
+    font-size: 17px;
+}
+
+.pressComent .btn{
+    width: 150px;
+    border-color: #B7B2A6;
+    color: #B7B2A6;
+    text-transform: uppercase;
+    background-color: inherit;
+    padding: 15px;
+    
+}
+
+.comment .pressComent cite{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    margin: auto 0;
+    text-align: right;
+}
+.bottom-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+}
+
+.asoort_table{
+    width:900px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.assortiment table td{
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 25px;
+}
+
+.assortiment table th{
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: normal;
+    color: D3D3D3;
+    
+}
+
+.assortiment table td sup{
+    background-color: black;
+    color: white;
+    text-transform: none;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.assortiment table td:not(:first-child){
+    color: grey;
+    font-weight: normal;
+}
+
+.assortiment table td:first-child{
+    width: 300px;
+
+}
+
+.assortiment{
+margin-bottom: 100px;
+
+}
+
+.order{
+background:#FFCB78;
+
+}
+
+.linear{
+    width: 900px;
+    margin: 0 auto;
+}
+.order-form{
+    width: 600px;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.order-form h2{
+    margin-top: 0;
+}
+
+.order .order-form p{
+    color: black;
+    font-size: 15px;    
+}
+
+.order-form input, 
+.order-form textarea,
+.order-form select
+{
+    background: #E6B66C;
+    border: 1px solid #E6B66C;
+    margin-bottom: 20px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.order-form label{
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size: 17px;
+    
+}
+
+.phone_nmbrs{
+    display: flex;
+    justify-content: right;
+}
+.phone_nmbrs label:first-child{
+    margin-right: auto;
+}
+.phone_nmbrs label input{
+    width: 270px;
+}
+
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+form input[type="submit"]{
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #834700;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+form{
+    padding-bottom: 100px;
+}
+
+.footer-bg{
+    background: #000000;
+
+}
+
+.page-footer{
+    
+    width:1000px;
+    margin:0 auto;
+    padding: 50px;
+}
+
+.footer-top{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.page-footer .footer-menu ul{
+    display: flex;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0;
+}
+
+.page-footer .footer-menu ul li{
+    display: block;
+    margin: 0 20px;
+    padding: 25px;
+}
+
+.page-footer .footer-menu ul li a{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-top .logo{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-top .footer-menu{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bottom{
+display: flex;
+
+}
+
+.networks img{
+    width: 70px;
+    border: 0.1em solid rgba(255,	203,	120, 0.3);
+}
+
+.networks{
+    display: flex;
+}
+
+.footer-bottom p,
+.footer-bottom a,
+.footer-bottom strong{
+    color: #8A8A8A;
+}
+.copyright{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: auto;
+}
+.copyright img{
+    margin-right: 20px;
+    background: #1B1B1B;
+    padding: 8px;
+    border: 0.1em solid rgba(255,	203,	120, 0.3);
+}
+
+.footer-bottom p{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}

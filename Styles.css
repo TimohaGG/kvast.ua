@@ -102,7 +102,7 @@ h2{
 
 }
 .product{
-    width: 400px;
+    
     display: flex;
     flex-direction: column;
     border-left: 1px solid grey;
@@ -233,6 +233,7 @@ li .arguments p{
 
 li{
     max-width: 400px;
+    
 
 }
 .arguments img{

@@ -230,6 +230,11 @@ li .arguments p{
     color: black;
 }
 
+
+li{
+    max-width: 400px;
+
+}
 .arguments img{
     width: 50px;
     height: 68px;
@@ -248,7 +253,7 @@ li .arguments p{
 }
 
 .history{
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 
 }
@@ -447,7 +452,10 @@ input[type="checkbox"]{
     width: 30px;
     height: 30px;
     margin: 0;
-}
+ }
+
+
+
 form input[type="submit"]{
     height: 40px;
     width: 200px;
@@ -474,7 +482,7 @@ form{
 
 .page-footer{
     
-    width:1000px;
+    max-width:1000px;
     margin:0 auto;
     padding-top: 50px;
 }
